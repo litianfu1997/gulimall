@@ -20,6 +20,12 @@
     </properties>
 
     <dependencies>
+        <!--公共依赖包-->
+        <dependency>
+            <groupId>com.atguigu.gulimall</groupId>
+            <artifactId>guigumall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -62,5 +68,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>
