@@ -2,6 +2,7 @@ package com.atguigu.gulimall.ware;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author litianfu
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020-04-06 10:53
  */
 @SpringBootApplication
+@EnableDiscoveryClient
 public class GulimallWareApplication {
 
     public static void main(String[] args) {
